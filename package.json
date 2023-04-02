@@ -1,0 +1,27 @@
+{
+  "name": "trash-truck-ws",
+  "version": "0.1.0",
+  "bin": {
+    "trash-truck-ws": "bin/trash-truck-ws.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@types/node": "18.15.11",
+    "aws-cdk": "2.72.1",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.0.5",
+    "ts-node": "^10.9.1",
+    "typescript": "~5.0.3"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "2.72.1",
+    "constructs": "^10.1.299",
+    "source-map-support": "^0.5.21"
+  }
+}
